@@ -34,7 +34,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: ankit7277/ankit-docker-image
+        image: ankit7277/spring-boot-image
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
